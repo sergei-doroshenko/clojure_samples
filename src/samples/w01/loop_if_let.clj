@@ -15,6 +15,12 @@
       z (+ x y)] 
   (+ x y z))
 
+(let [mystr "Sergei"]
+  (case mystr
+    ""       "Empty"
+    "Sergei" "Host"
+    "default"))
+
 (loop [x   10
        acc 0]
   (if (pos? x)
