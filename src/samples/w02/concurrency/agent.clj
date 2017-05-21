@@ -1,5 +1,5 @@
 (ns samples.w02.concurrency.agent)
-
+; async, uncoordinated changes
 (def ^:private counters-agent (agent {}))
 
 (defn a-inc-counter [name]

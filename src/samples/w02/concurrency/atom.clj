@@ -1,5 +1,5 @@
 (ns samples.w02.concurrency.atom)
-
+; syncronized, uncoordinated change
 (def ^:private counters-atom (atom {}))
 
 (defn inc-counter [name]
